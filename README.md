@@ -1,5 +1,3 @@
-GeminiOCR is a user-friendly desktop application for extracting text from images and PDFs using Google's powerful Gemini AI model. It features a simple Tkinter GUI, batch processing capabilities, and customizable settings.
-
 # Requirements
 
 *   Python 3.7 or higher
