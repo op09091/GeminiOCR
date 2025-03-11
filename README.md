@@ -11,6 +11,7 @@ GeminiOCR is a user-friendly desktop application for extracting text from images
 
 3.  **Configuration (config.json):**
 
+    *   **Get an API Key:** Obtain a Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).  You may need to create a Google Cloud project and enable the Gemini API.
     Create a file named `config.json` in the same directory as your script.  Use the following template, *replacing `YOUR_API_KEY_HERE` with your actual Gemini API key*:
 
     ```json
@@ -32,9 +33,6 @@ GeminiOCR is a user-friendly desktop application for extracting text from images
         }
     }
     ```
-
-    *   **Get an API Key:** Obtain a Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).  You may need to create a Google Cloud project and enable the Gemini API.
-    *   **Customize:**  Feel free to adjust the other settings in `config.json`, such as the `default_prompt` or GUI appearance.
 
 ## License
 
