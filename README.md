@@ -1,8 +1,8 @@
 # Requirements
 
 *   Python 3.7 or higher
-*   `google-generativeai` Python package
-*   `PyMuPDF` (fitz) Python package
+*   pip install -q -U google-generativeai
+*   pip install PyMuPDF
 
 # Configuration (config.json):
 
