@@ -1,15 +1,13 @@
-# GeminiOCR
-
 GeminiOCR is a user-friendly desktop application for extracting text from images and PDFs using Google's powerful Gemini AI model. It features a simple Tkinter GUI, batch processing capabilities, and customizable settings.
 
-## Requirements
+# Requirements
 
 *   Python 3.7 or higher
 *   `google-generativeai` Python package
 *   `PyMuPDF` (fitz) Python package
 *   Tkinter (typically included with Python installations)
 
-3.  **Configuration (config.json):**
+# Configuration (config.json):
 
 *   Obtain a Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).  You may need to enable the Gemini API.
 *   Create a file named `config.json` in the same directory as your script.  Use the following template, *replacing `YOUR_API_KEY_HERE` with your actual Gemini API key*:
@@ -34,6 +32,6 @@ GeminiOCR is a user-friendly desktop application for extracting text from images
     }
     ```
 
-## License
+# License
 
 This project is licensed under the Apache License 2.0.
