@@ -3,7 +3,6 @@
 *   Python 3.7 or higher
 *   `google-generativeai` Python package
 *   `PyMuPDF` (fitz) Python package
-*   Tkinter (typically included with Python installations)
 
 # Configuration (config.json):
 
