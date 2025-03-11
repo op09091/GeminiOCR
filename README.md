@@ -9,23 +9,6 @@ GeminiOCR is a user-friendly desktop application for extracting text from images
 *   `PyMuPDF` (fitz) Python package
 *   Tkinter (typically included with Python installations)
 
-## Installation
-
-1.  **Install Dependencies:**
-
-    ```bash
-    pip install google-generativeai PyMuPDF
-    ```
-
-2.  **Obtain the Code:**
-
-    *   **Option 1 (Git):**
-        ```bash
-        git clone <your_repository_url>  # Replace with your repository URL
-        cd <repository_name>
-        ```
-    *   **Option 2 (Download):** Download the `GeminiOCR.py` script (or whatever you named it) and the `config.json` file (see below) and place them in the same directory.
-
 3.  **Configuration (config.json):**
 
     Create a file named `config.json` in the same directory as your script.  Use the following template, *replacing `YOUR_API_KEY_HERE` with your actual Gemini API key*:
