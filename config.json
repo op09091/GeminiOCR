@@ -1,0 +1,17 @@
+{
+    "api_key": "YOUR_API_KEY_HERE",
+    "model_name": "gemini-1.5-pro",
+    "image_extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"],
+    "pdf_extension": ".pdf",
+    "default_prompt": "请提取图片上的文字返回，使用markdown以保留图片文字的格式，例如标题、加粗、居中等等",
+    "gui": {
+        "width": 700,
+        "height": 550,
+        "padding": 10,
+        "bg_color": "#f0f0f0",
+        "button_color": "#4a7abc",
+        "button_text_color": "white",
+        "success_color": "#4CAF50",
+        "error_color": "#F44336"
+    }
+}
